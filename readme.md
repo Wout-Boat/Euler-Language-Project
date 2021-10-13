@@ -19,7 +19,7 @@ It is of course expected that Go is generally the fasted being a compiled langua
 
 ### Language Speed Looses
 
-| Language        | Looses  |
+| Language        | Losses  |
 | --------------- | ------- |
 | Javascript 💩  | 6       |
 | Python          | 5       |
