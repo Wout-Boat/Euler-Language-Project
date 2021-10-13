@@ -21,16 +21,6 @@ public class Problem14 {
         return count;
     }
 
-    public static void collatz(int n) {
-        System.out.print(n + " ");
-        if (n == 1)
-            return;
-        else if (n % 2 == 0)
-            collatz(n / 2);
-        else
-            collatz(3 * n + 1);
-    }
-
     public static void runProblem() {
         int num = 0;
         int max = 0;
