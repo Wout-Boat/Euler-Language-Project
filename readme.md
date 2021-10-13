@@ -16,6 +16,7 @@ It is of course expected that Go is generally the fasted being a compiled langua
 | Java       | 3     |
 | Python     | 1     |
 | Javascript | 0     |
+| C#         | 0     |
 
 ### Language Speed Looses
 
@@ -25,3 +26,4 @@ It is of course expected that Go is generally the fasted being a compiled langua
 | Python          | 6       |
 | Java            | 2       |
 | Go              | 0       |
+| C#              | 0       |
