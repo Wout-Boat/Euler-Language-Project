@@ -1,4 +1,4 @@
-# Problem 12
+# Problem 5
 
 ## Smallest multiple
 
@@ -12,6 +12,7 @@
 | Go🔥         | 0.0152521             |
 | Java         | 0.0214219             |
 | Javascript   | 0.04822599995136261   |
+| C#           | 0.0700672             |
 | Python       | 0.9976513385772705    |
 
 ## Problem disclaimer
