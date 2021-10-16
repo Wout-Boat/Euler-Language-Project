@@ -12,7 +12,7 @@ It is of course expected that Go is generally the fasted being a compiled langua
 
 | Language   | Wins  |
 | ---------- | ----- |
-| Go 🔥      | 11    |
+| Go 🔥      | 12    |
 | Java       | 3     |
 | Python     | 1     |
 | Javascript | 0     |
@@ -23,7 +23,7 @@ It is of course expected that Go is generally the fasted being a compiled langua
 | Language        | Losses  |
 | --------------- | ------- |
 | Javascript 💩  | 8       |
-| Python          | 6       |
+| Python          | 7       |
 | Java            | 2       |
 | Go              | 0       |
 | C#              | 0       |
