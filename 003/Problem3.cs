@@ -9,7 +9,10 @@ namespace EulerProblems
             var watch = new System.Diagnostics.Stopwatch();
 
             watch.Start();
-            Problem();
+            for (var i = 0; i < 1000; i++)
+            {
+                Problem();
+            }
             watch.Stop();
 
             Console.WriteLine($"Function Took: {watch.Elapsed}");

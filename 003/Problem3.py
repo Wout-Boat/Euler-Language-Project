@@ -11,11 +11,12 @@ def largest_prime_factor(n: int) -> int:
     return n
 
 
-def problem003():
+def problem():
     print(largest_prime_factor(600851475143))
 
 
 start = time.time()
-problem003()
+for i in range(1000):
+    problem()
 end = time.time()
 print("Function took " + str(end - start))

@@ -34,14 +34,16 @@ func PrimeFactors(n int) (pfs []int) {
 	return
 }
 
-func problem003() {
+func problem() {
 	nums := PrimeFactors(problemNumber)
 	fmt.Println(nums[len(nums)-1])
 }
 
 func main() {
 	start := time.Now()
-	problem003()
+	for i := 0; i < 1000; i++ {
+		problem()
+	}
 	elapsed := time.Since(start)
 	fmt.Printf("Function took %s", elapsed)
 }

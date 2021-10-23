@@ -1,6 +1,8 @@
 fn main() {
     let start = std::time::SystemTime::now();
-    problem();
+    for _i in 0..1000 {
+        problem();
+    }
     match start.elapsed() {
         Ok(elapsed) => {
             println!("Function took: {}", elapsed.as_nanos())
