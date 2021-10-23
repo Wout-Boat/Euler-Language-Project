@@ -1,8 +1,8 @@
-use std::time::SystemTime;
-
 fn main() {
-    let start = SystemTime::now();
-    problem();
+    let start = std::time::SystemTime::now();
+    for _i in 0..1000 {
+        problem();
+    }
     match start.elapsed() {
         Ok(elapsed) => {
             println!("{}", elapsed.as_nanos())
