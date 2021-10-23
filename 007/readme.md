@@ -1,4 +1,4 @@
-# Problem 006
+# Problem 007
 
 ## Sum square difference
 
@@ -14,4 +14,5 @@
 | Javascript   | 1.1969745999574661    |
 | C#           | 1.2399333             |
 | Go           | 2.8187508             |
+| Rust         | 9.2890896             |
 | Python       | 15.223840236663818    |
