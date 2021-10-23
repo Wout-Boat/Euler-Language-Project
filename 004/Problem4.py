@@ -10,7 +10,7 @@ def reverse_int(n: int) -> int:
     return new_int
 
 
-def problem004():
+def problem():
     mx = 0
 
     for i in range(100, 1000):
@@ -22,6 +22,7 @@ def problem004():
 
 
 start = time.time()
-problem004()
+for i in range(1000):
+    problem()
 end = time.time()
 print("Function took " + str(end - start))

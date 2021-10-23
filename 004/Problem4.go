@@ -17,7 +17,7 @@ func reverse_int(n int) int {
 	return new_int
 }
 
-func problem004() {
+func problem() {
 	var max int = 0
 	var prod int
 	for i := 100; i < 1000; i++ {
@@ -33,7 +33,9 @@ func problem004() {
 
 func main() {
 	start := time.Now()
-	problem004()
+	for i := 0; i < 1000; i++ {
+		problem()
+	}
 	elapsed := time.Since(start)
 	fmt.Printf("Function took %s", elapsed)
 }

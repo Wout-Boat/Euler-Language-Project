@@ -8,7 +8,6 @@ namespace EulerProblems
         {
             var watch = new System.Diagnostics.Stopwatch();
 
-            watch.Start();
             for (var i = 0; i < 1000; i++)
             {
                 Problem();
@@ -18,27 +17,36 @@ namespace EulerProblems
             Console.WriteLine($"Function Took: {watch.Elapsed}");
         }
 
-        static private long MaxFactor(long n)
+        private static int ReverseInt(int n)
         {
-            long k = 2;
-            while (k * k <= n)
+            var newInt = 0;
+            while (n != 0)
             {
-                if (n % k == 0)
-                {
-                    n /= k;
-                }
-                else
-                {
-                    ++k;
-                }
+                var remainder = n % 10;
+                newInt *= 10;
+                newInt += remainder;
+                n /= 10;
             }
-
-            return n;
+            return newInt;
         }
 
-        static void Problem()
+
+        private static void Problem()
         {
-            Console.WriteLine(MaxFactor(600851475143));
+            int max = 0;
+            int prod;
+            for (int i = 100; i < 1000; i++)
+            {
+                for (int j = 100; j < 1000; j++)
+                {
+                    prod = i * j;
+                    if (prod == ReverseInt(prod) && prod > max)
+                    {
+                        max = prod;
+                    }
+                }
+            }
+            Console.WriteLine(max);
         }
     }
 }
