@@ -23,8 +23,8 @@ It is of course expected that Go is generally the fasted being a compiled langua
 
 | Language        | Losses  |
 | --------------- | ------- |
-| Javascript 💩  | 9       |
-| Python          | 7       |
+| Javascript      | 9       |
+| Python          | 6       |
 | Java            | 2       |
 | Go              | 0       |
 | C#              | 0       |
