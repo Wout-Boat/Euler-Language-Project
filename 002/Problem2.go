@@ -23,7 +23,9 @@ func problem002() {
 
 func main() {
 	start := time.Now()
-	problem002()
+	for i := 0; i < 1000; i++ {
+		problem002()
+	}
 	elapsed := time.Since(start)
 	fmt.Printf("Function took %s", elapsed)
 }

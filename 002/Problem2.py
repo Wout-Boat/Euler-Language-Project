@@ -17,6 +17,7 @@ def problem001():
 
 
 start = time.time()
-problem001()
+for i in range(1000):
+    problem001()
 end = time.time()
 print("Function took " + str(end - start))
