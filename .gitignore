@@ -1,3 +1,4 @@
 *.exe
 go.mod
 .vscode/
+cargo.toml
