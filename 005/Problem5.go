@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func problem005() {
+func problem() {
 	var num int = 3000
 	for {
 		if num%2 == 0 {
@@ -54,7 +54,9 @@ func problem005() {
 
 func main() {
 	start := time.Now()
-	problem005()
+	for i := 0; i < 1000; i++ {
+		problem()
+	}
 	elapsed := time.Since(start)
 	fmt.Printf("Function took %s", elapsed)
 }
