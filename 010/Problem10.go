@@ -23,7 +23,7 @@ func SieveOfEratosthenes(n int) []bool {
 }
 
 func problem() {
-	n := 2_000_000
+	n := 200
 	arr := SieveOfEratosthenes(n)
 
 	sum := 0
@@ -38,7 +38,9 @@ func problem() {
 
 func main() {
 	start := time.Now()
-	problem()
+	for i := 0; i < 1000; i++ {
+		problem()
+	}
 	elapsed := time.Since(start)
 	fmt.Printf("Function took %s", elapsed)
 }

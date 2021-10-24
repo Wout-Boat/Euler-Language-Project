@@ -36,6 +36,7 @@ def problem():
 
 
 start = time.time()
-problem()
+for i in range(100):
+    problem()
 end = time.time()
 print("Function took " + str(end - start))
