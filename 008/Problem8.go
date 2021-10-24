@@ -20,7 +20,7 @@ func prodFromNum(start int) int {
 	return prod
 }
 
-func problem8() {
+func problem() {
 	max := 0
 	var tmp int
 	for i := 0; i < numLength-l+1; i++ {
@@ -34,7 +34,9 @@ func problem8() {
 
 func main() {
 	start := time.Now()
-	problem8()
+	for i := 0; i < 1000; i++ {
+		problem()
+	}
 	elapsed := time.Since(start)
 	fmt.Printf("Function took %s", elapsed)
 }
