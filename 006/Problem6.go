@@ -23,14 +23,16 @@ func squareOfSum(num int) int {
 	return sum * sum
 }
 
-func problem005() {
+func problem() {
 	naturalNum := 100
 	fmt.Println(squareOfSum(naturalNum) - sumOfSquares(naturalNum))
 }
 
 func main() {
 	start := time.Now()
-	problem005()
+	for i := 0; i < 1000; i++ {
+		problem()
+	}
 	elapsed := time.Since(start)
 	fmt.Printf("Function took %s", elapsed)
 }

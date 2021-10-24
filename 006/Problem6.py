@@ -15,11 +15,12 @@ def SquareOfSum(num: int) -> int:
     return su * su
 
 
-def problem004():
+def problem():
     print(SquareOfSum(100) - SumOfSquares(100))
 
 
 start = time.time()
-problem004()
+for i in range(1000):
+    problem()
 end = time.time()
 print("Function took " + str(end - start))

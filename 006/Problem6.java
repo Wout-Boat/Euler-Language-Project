@@ -1,7 +1,9 @@
 public class Problem6 {
     public static void main(String[] args) {
         final long startTime = System.nanoTime();
-        runProblem();
+        for (int i = 0; i < 1000; i++) {
+            runProblem();
+        }
         final long endTime = System.nanoTime();
         System.out.println("Function took " + (endTime - startTime));
     }
