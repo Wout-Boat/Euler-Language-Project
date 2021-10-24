@@ -25,6 +25,8 @@ function problem() {
 }
 
 var start = performance.now();
-problem();
+for (var i = 0; i < 100; i++) {
+  problem();
+}
 var end = performance.now();
 console.log("Function took " + (end - start) / 1000);

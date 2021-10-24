@@ -14,7 +14,7 @@ func slowPrime(num int) bool {
 	return true
 }
 
-func problem007() {
+func problem() {
 	count := 2
 	i := 4
 	for {
@@ -31,7 +31,9 @@ func problem007() {
 
 func main() {
 	start := time.Now()
-	problem007()
+	for i := 0; i < 100; i++ {
+		problem()
+	}
 	elapsed := time.Since(start)
 	fmt.Printf("Function took %s", elapsed)
 }

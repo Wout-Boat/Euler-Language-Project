@@ -8,7 +8,7 @@ def isPrime(num: int) -> bool:
     return True
 
 
-def problem007():
+def problem():
     count = 2
     i = 4
     while True:
@@ -21,6 +21,7 @@ def problem007():
 
 
 start = time.time()
-problem007()
+for i in range(10):
+    problem()
 end = time.time()
 print("Function took " + str(end - start))
