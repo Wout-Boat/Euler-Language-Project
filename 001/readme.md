@@ -11,6 +11,7 @@ Timed by performing problem 1000 times.
 | Language   | Time (Seconds)        |
 | ---------- | --------------------- |
 | Kotlin 🔥  | 0.0000071671          |
+| Dart       | 0.000007619           |
 | Java       | 0.0000781874          |
 | Go         | 0.0000946491          |
 | Javascript | 0.00009795726         |
