@@ -10,7 +10,8 @@ Timed by performing problem 1000 times.
 
 | Language   | Time (Seconds)        |
 | ---------- | --------------------- |
-| Java 🔥    | 0.0000781874          |
+| Kotlin 🔥  | 0.0000071671          |
+| Java       | 0.0000781874          |
 | Go         | 0.0000946491          |
 | Javascript | 0.00009795726         |
 | C          | 0.0001042             |
