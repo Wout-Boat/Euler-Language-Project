@@ -19,4 +19,5 @@ Timed by performing problem 1000 times.
 | Rust       | 0.0001179             |
 | Python     | 0.00014382472         |
 | C#         | 0.00017573895         |
+| C++        | 0.000247              |
 | R          | 0.0007315409          |
